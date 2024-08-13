@@ -61,10 +61,10 @@ for ii=1:length(t)
     set(h1,'color','g');
     set(h1,'lineWidth',2);
     end
-if 2.0<=t(ii)&&t(ii)<=2.5
-set(h1,'color','b');
-set(h1,'lineWidth',2);
-end
+    if 2.0<=t(ii)&&t(ii)<=2.5
+    set(h1,'color','b');
+    set(h1,'lineWidth',2);
+    end
 end
 for ii=1:length(t)-1
 x2=[xt(ii) xt(ii+1)];
